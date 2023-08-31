@@ -198,7 +198,17 @@ The ultimate goal is to transfer the `cid` from a particular peer to another and
 
    ```
 
-   Currently this file is not working and showing error when `createNode` from `networking.js` is used in the `Dropzone.js` file. 
+  Currently this file is not working and showing error when `createNode` from `networking.js` is used in the `Dropzone.js` file.
+   ```javascript
+      import {createNode} from './networking'
+
+
+     //  setting heliaNode
+      const heliaNode = await createNode()
+
+   ```
+   
+   <img src="./public/error.png" alt="drawing" width="700"/>
    
 ---
 
