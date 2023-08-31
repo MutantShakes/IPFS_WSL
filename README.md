@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# Decentralized Storage System with Incentives
+
+Welcome to the Decentralized Storage System project! This project aims to leverage the power of decentralized systems, allowing users to store and pin data in a distributed fashion. We utilize the IPFS protocol for pinning data and libp2p for seamless peer-to-peer transfers. What's unique about our system? We offer custom incentives for participants who store and pin data on their local computers!
+
+## Features
+
+- **Decentralized Storage:** Utilize IPFS for effective and decentralized data storage.
+- **Peer-to-Peer Transfers:** Leverage libp2p for efficient data transfer among peers.
+- **Incentivization System:** Get rewarded for contributing to the network by pinning and storing data.
+
+## Technologies Used
+
+- [IPFS](https://ipfs.io/) - For decentralized storage and pinning of data. [IPFS Documentation](https://docs.ipfs.io/)
+- [libp2p](https://libp2p.io/) - A modular network stack that allows peer-to-peer networking for any system. [libp2p Documentation](https://docs.libp2p.io/)
+- [Next.js](https://nextjs.org/) - For building our user interface. [Next.js Documentation](https://nextjs.org/docs)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+   ```
+   git clone https://github.com/MutantShakes/IPFS_WSL.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+2. Navigate to the project directory and install dependencies:
+   ```
+   cd IPFS_WSL && npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Start the Next.js application:
+   ```
+   npm run dev
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## References & Libraries
 
-## Learn More
+- [IPFS GitHub Repository](https://github.com/ipfs/ipfs)
+- [libp2p GitHub Repository](https://github.com/libp2p/libp2p)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js/)
+- Additional readings:
+  - [IPFS Whitepaper](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
+  - [libp2p Specification](https://github.com/libp2p/specs)
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
